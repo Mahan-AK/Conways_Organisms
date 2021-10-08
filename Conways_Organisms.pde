@@ -103,7 +103,7 @@ void update() {
     }
   }
   patterns.clear();
-  for (boolean[][] target: targets) findPatterns(new_board, target);
+  for (boolean[][] pattern: pattern_array) findPatterns(new_board, pattern);
   board = new_board;
 }
 
